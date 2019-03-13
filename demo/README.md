@@ -34,7 +34,7 @@ A table:
 | Han      | Solo      |
 
 
-Some codes (with R syntax):
+Some code (with R syntax):
 
 ```{r}
 # this is a comment
