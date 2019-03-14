@@ -69,7 +69,7 @@ sshot_data
 ##### Statistics: The followings are the effective shooting percentages of five capable Golden State Warriors members. The data I used came from Foxsports. The members I analyzed are Stephen Curry, Klay Thompson, Draymond Green, Andre Iguodala and Kevin Durant, who joined the team in 2016. I'm going to compare the differences between each player for each year. After analysing the differences within each year, a total trend for these 5 members' performances will be generated. By observing this trend I can make a guess on whether or not GSW will claim the triple consecutive win in this year. 
 
 ```{r out.width='80%', echo=FALSE, fig.align='center'}
-knitr::include_graphics('2015.png')
+knitr::include_graphics('../images/2015.png')
 ```
 ```{r}
 stat_2016 <- c(0.467,0.471,0.424,0.518,0.541)
@@ -78,10 +78,10 @@ barplot(stat_2016, main = "2016 overall Effective shooting percentage", col = "s
 ```
 
 ```{r out.width='80%', echo=FALSE, fig.align='center'}
-knitr::include_graphics('2017.png')
+knitr::include_graphics('../images/2017.png')
 ```
 ```{r out.width='80%', echo=FALSE, fig.align='center'}
-knitr::include_graphics('2018.png')
+knitr::include_graphics('../images/2018.png')
 ```
 
 ##### Analysis: Starting from the year 2015, four members showed approximately equal ability in the effective shooting. There was not many differences between them. The range was only 2%. However, in the year of 2016, there was a clear difference between members. The difference increased to 7%. Observing more detailly, the difference was due to Draymond Green, whose score dropped from 0.483 to 0.424. During this year, Kevin Durant was signed into the Warriors. He impressed everyone with a very high score of 0.541. His score was the highest among all the members. When it came to 2017, the range of difference increased to 10.55%. During this year, Draymond kept going down to 0.401 and Kevin Durant also went down to 0.4915, but the differences between members were shortened. However, last year, the statistics fluctuated drastically. Andre Iguodala was not in good condition and his score dropped 8%, which made team members' difference enlarge again. Comparing the trend of the recent years' effective shooting scores, only Stephen Curry and Klay Thompson have a little increase, the rest three members all declined a lot. 
