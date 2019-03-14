@@ -4,6 +4,7 @@ author: "Jiani Song"
 date: "3/9/2019"
 output: github_document
 ---
+
 ```{r out.width="100%", echo=FALSE, fig.align='center'}
 
 knitr::include_graphics("../images/gsw-shot-charts.png")

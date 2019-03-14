@@ -3,7 +3,7 @@ workout01
 Jiani Song
 3/9/2019
 
-<img src="../images/gsw-shot-chart.png" width="100%" style="display: block; margin: auto;" />
+<img src="../images/gsw-shot-charts.png" width="100%" style="display: block; margin: auto;" />
 
 ``` r
 # 5.1
