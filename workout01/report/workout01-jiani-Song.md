@@ -3,6 +3,8 @@ workout01
 Jiani Song
 3/9/2019
 
+<img src="../images/gsw-shot-chart.png" width="100%" style="display: block; margin: auto;" />
+
 ``` r
 # 5.1
 library(readr)
@@ -124,7 +126,7 @@ names(stat_2016)=c("Stephen Curry","Klay Thompson","Graymond Green","Andre Iguod
 barplot(stat_2016, main = "2016 overall Effective shooting percentage", col = "steel blue")
 ```
 
-![](workout01-jiani-Song_files/figure-markdown_github/unnamed-chunk-3-1.png)
+![](workout01-jiani-Song_files/figure-markdown_github/unnamed-chunk-4-1.png)
 
 <img src="2017.png" width="80%" style="display: block; margin: auto;" /> <img src="2018.png" width="80%" style="display: block; margin: auto;" />
 
