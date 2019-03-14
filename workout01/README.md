@@ -1,6 +1,6 @@
 
 The purpose of this assignment is threefold: 
-1) From the logistical point of view, this
+1) From the logistical points of view, this
 assignment will give you the opportunity to start working with a more complex file structure,
 and uploading file to GitHub.
 2) From the analytic point of view, this HW involves
