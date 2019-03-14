@@ -73,8 +73,8 @@ knitr::include_graphics('../images/2015.png')
 ```
 ```{r}
 stat_2016 <- c(0.467,0.471,0.424,0.518,0.541)
-names(stat_2016)=c("Stephen Curry","Klay Thompson","Graymond Green","Andre Iguodala","Kevin Durant")
-barplot(stat_2016, main = "2016 overall Effective shooting percentage", col = "steel blue")
+names(stat_2016)=c("Curry","Thompson","Green","Iguodala","Durant")
+barplot(stat_2016, space = c(0.7,0.6),main = "2016 overall Effective shooting percentage", col = "steel blue")
 ```
 
 ```{r out.width='80%', echo=FALSE, fig.align='center'}
