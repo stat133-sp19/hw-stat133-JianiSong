@@ -1,5 +1,5 @@
 ---
-title: README FILE
+title: README File
 author: "Jiani Song"
 ---
 

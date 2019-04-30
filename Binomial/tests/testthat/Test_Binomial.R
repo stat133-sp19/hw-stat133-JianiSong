@@ -1,6 +1,5 @@
 library(testthat)
 
-
 context("Tests for Binomial functions")
 
 
