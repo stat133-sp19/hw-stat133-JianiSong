@@ -1,11 +1,12 @@
----
-title: README File
-author: "Jiani Song"
----
+# binomial133 Package
 
+
+- Author Name: Jiani Song
+
+----
 ## Overview :
 
-The package `"Binomial"` is a minimal implementation for calculating the relative probability of number of successes in total trials by using the given number of trials, successes and probability. 
+The package `"binomial133"` is a minimal implementation for calculating the relative probability of number of successes in total trials by using the given number of trials, successes and probability. 
 
 ## Steps:
 
