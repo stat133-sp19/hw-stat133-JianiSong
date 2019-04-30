@@ -55,7 +55,20 @@ If you want to explore more and get the details of your binomial variable, you c
 
 ## Motivation           
 
-This package has been developed to illustrate the usage of Binomial Package.             
+This package has been developed to illustrate the usage of Binomial Package.  
+
+
+## Installation      
+
+development version from GitHub:       
+install.packages("devtools")       
+
+install "binomial133" (without vignettes)    
+devtools::install_github("foldername/binomial133")     
+
+install "binomial133" (with vignettes)     
+devtools::install_github("foldername/binomial133", build_vignettes = TRUE)       
+
 
 ## Usage                     
 
@@ -65,6 +78,34 @@ Second, choosing the function you want to test.
 
 Third, choosing your input, such as number of trials, number of successes and probability.         
       
-Fourth, you can get the output with your inputs.             
+Fourth, you can get the output with your inputs.    
+
+The followings are the examples of using my binomial133 package.       
+
+`bin_choose(n=10,k=1)`                 
+`bin_probability(1,10,0.1)`          
+`bin_dis <- bin_distribution(trials = 2, prob = 0.2)`      
+`plot(bin_dis)`       
+`bin_cum <- bin_cumulative(5,0.1)`     
+`plot(bin_cum)`            
+`bin_example <- bin_variable(2,0.1)`         
+`summary(bin_example)`          
+`bin_mean(2,0.1)`   
+`bin_variance(2,0.1)`         
+`bin_mode(10,0.1)`     
+`bin_skewness(10,0.1)`     
+`bin_kurtosis(10,0.1)`      
+
+
+
+
+
+
+
+
+
+
+
+
 
 
