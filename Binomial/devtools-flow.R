@@ -1,5 +1,5 @@
 # =====================================================
-# Devtools Binomial Distribution workflows
+# Devtools binomial Distribution workflows
 # library(devtools)
 # Description: The following commands are used to create my own Binomial package
 # =====================================================
@@ -10,5 +10,4 @@ devtools::test()              # run tests
 devtools::build_vignettes()   # build vignettes
 devtools::build()             # build bundle
 devtools::install()           # install package
-
-
+devtools::check()             # check

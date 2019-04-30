@@ -11,7 +11,7 @@ vignette: >
 
 ```{r echo = FALSE, message= FALSE}
 knitr::opts_chunk$set(collapse = T, comment="#>")
-library(Binomial)
+library(binomial133)
 library(ggplot2)
 ```
 Vignettes are long form documentation commonly included in packages. Because they are part of the distribution of the package, they need to be as compact as possible. The `html_vignette` output type provides a custom style sheet (and tweaks some options) to ensure that the resulting html is as small as possible. The `html_vignette` format:
@@ -93,17 +93,6 @@ If you want to explore more and get the details of your binomial variable, you c
 `bin_mode` for the mode your desired binomial diribution.          
 `bin_skewness` for the skewness your desired binomial diribution.       
 `bin_kurtosis` for the mean your desired binomial diribution.         
-
-```{r}
-bin_mean(10,0.5)
-bin_variance(10,0.5)
-bin_mode(10,0.5)
-bin_skewness(10,0.5)
-bin_kurtosis(10,0.5)
-```
-
-
-
 
 
 

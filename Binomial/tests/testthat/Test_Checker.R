@@ -1,7 +1,4 @@
 library(testthat)
-
-source("../../R/Binomial.R")
-
 context("tests for Checker functions")
 
 # Test check_prob
@@ -27,5 +24,3 @@ test_that("Test if the check_success works",{
   expect_type(check_trials(10),"logical")
 
 } )
-
-

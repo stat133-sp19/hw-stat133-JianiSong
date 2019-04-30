@@ -1,4 +1,4 @@
-source("../../R/Binomial.R")
+library(testthat)
 context("Test for Auxillary functions")
 
 test_that("Aux_mean works as expected",{

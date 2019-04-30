@@ -1,6 +1,8 @@
 library(testthat)
 
-source("../../R/Binomial.R")
+
+context("Tests for Binomial functions")
+
 
 #bin_choose
 test_that("bin_choose is as expected", {
@@ -29,7 +31,5 @@ test_that("bin_cumulative is as expected", {
   expect_length(bin_cumulative(trials = 10, prob = 0.5),3)
   expect_error(bin_cumulative(5,20))
 })
-
-
 
 
