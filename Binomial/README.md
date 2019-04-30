@@ -65,10 +65,10 @@ development version from GitHub:
 install.packages("devtools")       
 
 install "binomial133" (without vignettes)    
-devtools::install_github("foldername/binomial133")     
+devtools::install_github("stat133-sp19/hw-stat-133-JianiSong/binomial133") 
 
 install "binomial133" (with vignettes)     
-devtools::install_github("foldername/binomial133", build_vignettes = TRUE)       
+devtools::install_github("stat133-sp19/hw-stat-133-JianiSong/binomial133", build_vignettes = TRUE)       
 
 
 ## Usage                     
