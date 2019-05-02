@@ -1,7 +1,7 @@
 # binomial133 Package
 
 
-- Author Name: Jiani Song
+- Author Name: JianiSong
 
 ----
 ## Overview :
@@ -81,7 +81,7 @@ Third, choosing your input, such as number of trials, number of successes and pr
       
 Fourth, you can get the output with your inputs.    
 
-The followings are the examples of using my binomial133 package.       
+The followings are various examples of using my binomial133 package.       
 
 `bin_choose(n=10,k=1)`                 
 `bin_probability(1,10,0.1)`          

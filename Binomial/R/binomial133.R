@@ -24,7 +24,7 @@ check_prob <- function(prob){
 # Param: trials  The trials that we check whether is valid
 # Return: A logical vector of whether prob is a valid probability
 check_trials <- function(trials){
-  if((trials >= 0) & (trials%%1 == 0 )){
+  if((trials > 0) & (trials%%1 == 0 )){
     return(TRUE)
   }else{
     stop("invalid trials value")
@@ -38,7 +38,7 @@ check_trials <- function(trials){
 # Param: trials  The trials value that we check whether is valid
 # Return: A logical vector of whether the success is a valid probability
 check_success <- function(success,trials){
-  if(success>=0 & (success%%1 == 0) & success<= trials){
+  if((success >=0 )& (success%%1 == 0) &(check_trials(trials))&(success<= trials)){
     return(TRUE)
   }else{
     stop("invalid success value")
@@ -54,6 +54,8 @@ check_success <- function(success,trials){
 #examples
 #aux_mean(10, 0.3)
 aux_mean <- function(trials, prob){
+  check_trials(trials)
+  check_prob(prob)
   return(trials*prob)
 }
 
@@ -65,6 +67,8 @@ aux_mean <- function(trials, prob){
 #examples
 #aux_variance(10, 0.3)
 aux_variance <- function(trials, prob){
+  check_trials(trials)
+  check_prob(prob)
   return(trials*prob*(1-prob))
 }
 
@@ -102,6 +106,8 @@ aux_mode <- function(trials,prob){
 #examples
 #aux_skewness(10, 0.3)
 aux_skewness <- function(trials, prob){
+  check_trials(trials)
+  check_prob(prob)
   skewness = (1-2*prob)/sqrt(trials * prob * (1- prob))
   return(skewness)
 }
@@ -115,6 +121,8 @@ aux_skewness <- function(trials, prob){
 #examples
 #aux_kurtosis(10, 0.3)
 aux_kurtosis <- function(trials, prob){
+  check_trials(trials)
+  check_prob(prob)
   kurtosis= (1 - 6 * prob * (1-prob) )/(trials * prob * (1-prob))
   return(kurtosis)
 }
@@ -132,12 +140,14 @@ aux_kurtosis <- function(trials, prob){
 # bin_choose(5,1:3)
 #' @export
 bin_choose <- function(n,k){
-  if(k>n){
-    stop("k cannot be greater than n")
-  }else{
+  if (check_success(k,n)){
     return(factorial(n)/(factorial(k)*factorial(n-k)))
-  }
-}
+  }else{
+    stop("invalid input k / n")
+  }}
+
+
+
 
 # 1.4
 #' @title Binomial Probability
