@@ -1,7 +1,7 @@
 # binomial133 Package
 
 
-- Author Name: JianiSong
+- Author Name: Jiani Song
 
 ----
 ## Overview :
@@ -67,13 +67,13 @@ install.packages("devtools")
 install "binomial133" (without vignettes)    
 devtools::install_github("stat133-sp19/hw-stat133-JianiSong/Binomial")
 
-If it doesn't work, use 'force = TRUE'
+If it doesn't work, use 'force = TRUE'            
 devtools::install_github("stat133-sp19/hw-stat133-JianiSong/Binomial", force = TRUE)
 
-install "binomial133" (with vignettes)     
+install "binomial133" (with vignettes)              
 devtools::install_github("stat133-sp19/hw-stat133-JianiSong/Binomial", build_vignettes = TRUE)       
 
-If it doesn't work, use 'force = TRUE'
+If it doesn't work, use 'force = TRUE'              
 devtools::install_github("stat133-sp19/hw-stat133-JianiSong/Binomial", build_vignettes = TRUE, force = TRUE)
 
 
