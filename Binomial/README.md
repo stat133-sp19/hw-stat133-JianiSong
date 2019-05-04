@@ -1,7 +1,7 @@
 # binomial133 Package
 
 
-- Author Name: Jiani Song
+- Author Name: JianiSong
 
 ----
 ## Overview :
