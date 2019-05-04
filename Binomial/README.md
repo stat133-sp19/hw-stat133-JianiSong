@@ -65,10 +65,16 @@ development version from GitHub:
 install.packages("devtools")       
 
 install "binomial133" (without vignettes)    
-devtools::install_github("stat133-sp19/hw-stat-133-JianiSong/binomial133") 
+devtools::install_github("stat133-sp19/hw-stat133-JianiSong/Binomial")
+
+If it doesn't work, use 'force = TRUE'
+devtools::install_github("stat133-sp19/hw-stat133-JianiSong/Binomial", force = TRUE)
 
 install "binomial133" (with vignettes)     
-devtools::install_github("stat133-sp19/hw-stat-133-JianiSong/binomial133", build_vignettes = TRUE)       
+devtools::install_github("stat133-sp19/hw-stat133-JianiSong/Binomial", build_vignettes = TRUE)       
+
+If it doesn't work, use 'force = TRUE'
+devtools::install_github("stat133-sp19/hw-stat133-JianiSong/Binomial", build_vignettes = TRUE, force = TRUE)
 
 
 ## Usage                     
